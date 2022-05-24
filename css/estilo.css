@@ -1,0 +1,53 @@
+ @font-face {
+     font-family: duda;
+     src: url(Sienthas.otf);
+ }
+
+ :root {
+    --cor-fundo:#8469A3;
+    --cor-titulo: #00000C;
+    --cor-paragrafo:#00000C;
+    --cor-link:#9E8FDF;
+    --cor-borda:#9E8FDF;
+    --fonte: duda;
+ }
+
+body {
+    font-family: var(--fonte);
+    background-color:var(--cor-fundo);
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    color:#00000C;
+}
+
+p{
+    color: #00000C;
+    text-align: justify;
+    font-family: Impact;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    
+}
+
+ul li a {
+    color: #9E8FDF;
+}
+ul li{
+    padding-bottom: 5px;
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: #9E8FDF;
+    border-style: solid;
+    transform: rotate(90deg);
+}
